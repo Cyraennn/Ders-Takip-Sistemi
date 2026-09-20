@@ -1,6 +1,6 @@
-# BÖTE Ders Merkezi  ·  v5
+# Ders Çalışma Sistemi  ·  v5
 
-Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) öğrencileri için **tek klasörde çalışan, kurulum gerektirmeyen** çok modüllü ders çalışma uygulaması. Tamamen tarayıcıda çalışır, internet gerektirmez, tüm veriler tarayıcının `localStorage` alanında saklanır. Çevrimdışı çalışır ve uygulama olarak yüklenebilir (PWA).
+Ders Çalışma Sistemi, öğrenciler için **tek klasörde çalışan, kurulum gerektirmeyen** çok modüllü ders çalışma uygulaması. Tamamen tarayıcıda çalışır, internet gerektirmez, tüm veriler tarayıcının `localStorage` alanında saklanır. Çevrimdışı çalışır ve uygulama olarak yüklenebilir (PWA).
 
 ## Kullanım
 
