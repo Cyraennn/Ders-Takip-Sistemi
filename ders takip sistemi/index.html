@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ders Takip Sistemi</title>
+  <meta name="description" content="Ders Takip Sistemi" />
+  <meta name="theme-color" content="#0f1219" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" />
+  <link rel="apple-touch-icon" href="assets/icon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-logo">🎓</span>
+        <div class="brand-text">
+          <strong>Ders Takip Sistemi</strong>
+          <small>Ders Çalışma Suite'i</small>
+        </div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <button id="themeToggle" type="button" title="Tema değiştir">🌓 Tema</button>
+        <span class="version">v5</span>
+      </div>
+    </aside>
+
+    <div id="content-wrap">
+      <header id="topbar">
+        <button id="menuToggle" type="button" aria-label="Menü">☰</button>
+        <h1 id="page-title">Panel</h1>
+        <div id="topbar-actions"></div>
+        <div id="topbar-user"></div>
+        <button id="paletteBtn" type="button" title="Komut paleti (Ctrl+K)">⌘ Ara</button>
+      </header>
+      <main id="view"></main>
+    </div>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/modules/dashboard.js"></script>
+  <script src="assets/js/modules/schedule.js"></script>
+  <script src="assets/js/modules/calendar.js"></script>
+  <script src="assets/js/modules/tasks.js"></script>
+  <script src="assets/js/modules/exams.js"></script>
+  <script src="assets/js/modules/gpa.js"></script>
+  <script src="assets/js/modules/attendance.js"></script>
+  <script src="assets/js/modules/gradplan.js"></script>
+  <script src="assets/js/modules/progress.js"></script>
+  <script src="assets/js/modules/pomodoro.js"></script>
+  <script src="assets/js/modules/flashcards.js"></script>
+  <script src="assets/js/modules/quiz.js"></script>
+  <script src="assets/js/modules/ai.js"></script>
+  <script src="assets/js/modules/notes.js"></script>
+  <script src="assets/js/modules/studylog.js"></script>
+  <script src="assets/js/modules/resources.js"></script>
+  <script src="assets/js/modules/snippets.js"></script>
+  <script src="assets/js/modules/toolbox.js"></script>
+  <script src="assets/js/modules/citation.js"></script>
+  <script src="assets/js/modules/settings.js"></script>
+  <script src="assets/js/modules/backup.js"></script>
+  <script src="assets/js/modules/jarvis.js"></script>
+  <script src="assets/js/boot.js"></script>
+</body>
+</html>

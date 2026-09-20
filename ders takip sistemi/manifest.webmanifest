@@ -1,0 +1,14 @@
+{
+  "name": "Ders Takip Sistemi",
+  "short_name": "Ders Merkezi",
+  "description": "Ders Çalışma Ve Takip Sistemi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1219",
+  "theme_color": "#0f1219",
+  "lang": "tr",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
